@@ -1,0 +1,41 @@
+{
+  "name": "AwesomeProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "EventEmitter": "^1.0.0",
+    "react": "16.5.0",
+    "react-native": "0.57.2",
+    "react-native-banner-carousel": "^1.0.3",
+    "react-native-collapsing-toolbar": "^1.0.0-beta.9",
+    "react-native-drawer": "^2.5.1",
+    "react-native-material-cards": "^1.0.9",
+    "react-native-nested-scroll-view": "^8.0.0",
+    "react-native-snap-carousel": "^3.7.5",
+    "react-native-ui-kitten": "^3.1.2",
+    "react-native-webview-autoheight": "^1.0.5",
+    "react-navigation": "^2.17.0",
+    "react-navigation-slide-from-right-transition": "^1.0.4",
+    "react-navigation-transitions": "^1.0.5",
+    "react-redux": "^5.1.1",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.48.1",
+    "react-test-renderer": "16.5.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
+    ]
+  }
+}
